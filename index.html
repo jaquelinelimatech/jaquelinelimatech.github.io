@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <!--BOOTSTRAP ICONS-->
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.1/font/bootstrap-icons.css">
+   <link rel="icon" type="image/x - icon" href="img/apple-touch-icon.png">
+   <!--fIM BOOTSTRAP ICONS-->
+    <link rel="stylesheet" href="style.css">
+   <!--fonte da letra j-->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.0/css/all.min.css">
+   <!--javascript-->
+   <script src="menu.js" defer></script>
+    <title>Portfolio Jaqueline</title>
+</head>
+<body>
+    <header>
+        <div class="interface">
+             <div class="logo">
+             <a href="index.html"><i class="fa-solid fa-j"></i></a>
+            </div><!--logo -->
+            <nav class="menu-desktop">
+                <ul>
+                    <li><a href="#titulo01">Início</a></li>
+                    <li><a href="#titulo02">Linguagens</a></li>
+                    <li><a href="#titulo03">Sobre</a></li>
+                    <li><a href="#titulo04">Projetos</a></li>
+                </ul>
+            </nav>
+
+            <div class="btn-contato">
+                <a href="#titulo05">
+                    <button>Contato</button>
+                </a>
+            </div><!--btn-contato-->
+
+            <div class="btn-abrir-menu" id="btn-menu">
+                <i class="bi bi-list"></i>
+            </div>
+               
+            <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-lg"></i>
+                </div><!--btn-fechar-->
+                
+                <nav>
+                    <ul>
+                        <li><a href="#titulo01">Início</a></li>
+                        <li><a href="#titulo02">Linguagens</a></li>
+                        <li><a href="#titulo03">Sobre</a></li>
+                        <li><a href="#titulo04">Projetos</a></li>
+                        <li><a href="#titulo05">Contato</a></li>
+                    </ul>
+                </nav>
+                
+            </div><!--menu-mobile-->
+            <div class="overlay-menu" id="overlay-menu"></div>
+        </div><!--interface -->
+    </header>
+    
+    <main>
+        <section id="titulo01" class="topo-do-site">
+            <div class="interface">
+                <div class="flex">
+                    <div class="txt-topo-site">
+                        <h3>Olá, pessoal</h3>
+                        <h1>Eu sou <span>Jaqueline Lima</span></h1>
+                        <p>Buscando aprender todos os dias e superar os desafios dessa decisão. Como diz:<br> Charles Chaplin – “Cada segundo é tempo de mudar tudo para sempre.”</p>
+                       
+                        <div class="btn-contato">
+                            <a href="/primeiroprojeto-main/Curriculo4.pdf" download="Curriculo4.pdf" type="application/pdf"">
+                                <button>Currículo</button>
+                            </a>
+                        </div>
+                    </div><!--txt-topo-site-->
+
+                    <div class="img-topo-site">
+                        <img src="img/Eu3.png" alt="eu">
+                    </div><!--img-topo-site-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--topo do site-->
+
+        <section id="titulo02" class="linguagens">
+            <div class="interface">
+                <h2 class="titulo">LINGUAGENS <span>EM ESTUDO.</span></h2>
+                <div class="flex">
+                    <div class="linguagens-box">
+                        <i class="bi bi-filetype-html"></i>
+                        <h3>HTML</h3>
+                        <p>Linguagem em treinamento</p>
+                    </div><!--linguagens-box-->
+
+                    <div class="linguagens-box">
+                        <i class="bi bi-filetype-css"></i>
+                        <h3>CSS</h3>
+                        <p>Linguagem em treinamento</p>
+                    </div><!--linguagens-box-->
+
+                    <div class="linguagens-box">
+                        <i class="bi bi-filetype-js"></i>
+                        <h3>JAVASCRIPT</h3>
+                        <p>Linguagem em estudo</p>
+                    </div><!--linguagens-box-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--linguagens-->
+
+        <section id="titulo03" class="sobre">
+            <div class="interface">
+                <div class="flex">
+                    <div class="img-sobre">
+                        <img src="img/foto fundo cinza.png" alt="">
+                    </div><!--img-sobre-->
+
+                    <div class="txt-sobre">
+                        <h2>MUITO PRAZER, <span>SOU JAQUELINE LIMA</span></h2>
+                        <p>Sou formada em Administração de Empresas, nascida e criada em Salvador, Bahia.
+                        Amo cozinhar como hobby, viajar e ler livros...às vezes (kkk). Comecei na tecnologia através das semanas de aula gratuita, até encontrar projetos como o Elas na_Tech. Agora estou dando os primeiros passos nesse universo e descobrindo, aprendendo, errando, mudando e tentando de novo. Apresento-lhes alguns dos minhas aventuras no mundo tech.</p>
+                        <div class="btn-social">
+                            <a href="https://www.instagram.com/" target="_blank"><button><i class="bi bi-instagram"></i></button></a>
+                            <a href="https://github.com/jaquelinelimatech" target="_blank"><button><i class="bi bi-github"></i></button></a>
+                            <a href="https://www.linkedin.com/in/jaquelinelima92/" target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
+                        </div><!--btn-social-->
+                    </div><!--txt-sobre-->
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--sobre-->
+
+        <section id="titulo04" class="portfolio">
+            <div class="interface">
+                <h2 class="titulo">MEU <span>PORTFÓLIO</span></h2>
+                <div class="flex">
+                    <div class="img-port" style="background-image: url(img/curriculopng.png);">
+                        <div class="overlay">Projeto 1 - Projeto criado inicialmente apenas com html e após algumas aulas acrescentamos o css. Tem um estilo mais clean e básico de um currículo.</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(img/Projetos-mulheresnatech2023-10-01.png);">
+                        <div class="overlay">Projeto 2 - Projeto criado com html, onde demos os primeiros passos no css, acrescentando cores e dando vida à página.</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(img/cardapio1.png);">
+                        <div class="overlay">Projeto 3 - Projeto criado com html e css, além de outros recursos como o designer e criação de uma identidade</div>
+                    </div>
+                    <div class="img-port" style="background-image: url(img/ods.png);">
+                        <div class="overlay">Projeto 4 - Projeto criado criado em parceria com a JA, no projeto chamado "Meu primeiro site" onde tivemos o primeiro contato com responsividade.</div>
+                    </div>
+                </div><!--flex-->
+            </div><!--interface-->
+        </section><!--portfolio-->
+
+
+        <section class="portfolio2">
+            <div class="interface">
+                <div class="flex">
+                    <div class="btn-contato">
+                        <a href="https://github.com/jaquelinelimatech/primeiroprojeto" target="_blank">
+                            <button>Currículo</button>
+                        </a>
+                    </div>
+                    <div class="btn-contato">
+                        <a href="https://github.com/jaquelinelimatech/mulheresnatechopcional" target="_blank">
+                            <button>Mulheres</button>
+                        </a>
+                    </div>
+                    <div class="btn-contato">
+                        <a href="https://github.com/jaquelinelimatech/cardapio" target="_blank">
+                            <button>Cardápio</button>
+                        </a>
+                    </div>
+                    <div class="btn-contato">
+                        <a href="https://github.com/jaquelinelimatech/desafiofinalcompleto" target="_blank">
+                            <button>ODS</button>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        <section id="titulo05" class="formulario">
+            <div class="interface">
+                <h2 class="titulo">FALE <span>CONOSCO.</span></h2>
+
+                <form action="https://formsubmit.co/8cf57a661cafe9665893c9019a304e74" method="POST">
+                    <label for="name">Nome</label>
+                    <input type="text" name="name" id="name" placeholder="Seu nome" required>
+                    <label for="email">E-mail</label>
+                    <input type="email" name="email" id="email" placeholder="Seu email" required>
+                    <label for="message">Mensagem</label>
+                    <input type="text" name="message" id="message" placeholder="Sua mensagem" required>
+                   <div class="btn-enviar"> <button type="submit" class="btn-enviar">ENVIAR</button>
+                   </div>
+                </form>
+
+            </div><!--interface-->
+        </section><!--formulario-->
+
+    
+    </main>
+
+
+
+    <footer>
+        <div class="interface">
+            <div class="line-footer">
+                <div class="flex">
+                    <div class="logo-footer">
+                       <a href="index.html"> <i class="fa-solid fa-j"></i></a> 
+                    </div><!--logo-footer-->
+                    <div class="btn-social">
+                        <a href="https://www.instagram.com/" target="_blank"><button><i class="bi bi-instagram"></i></button></a>
+                        <a href="https://github.com/jaquelinelimatech" target="_blank"><button><i class="bi bi-github"></i></button></a>
+                        <a href="https://www.linkedin.com/in/jaquelinelima92/" target="_blank"><button><i class="bi bi-linkedin"></i></button></a>
+                    </div><!--btn-social-->
+                </div><!--flex-->
+            </div><!--line-footer-->
+             
+            <div class="line-footer borda">
+                <p><i class="bi bi-envelope-fill"></i> <a href="mailto:contato@jaqueline.com.br">contato@jaqueline.com.br</a> </p>
+               
+                <div class="line-footer">
+                    <a href="referências.html" target="_blank">Referências</a>
+                 </div><!--line-footer-->
+             </div><!--line-footer-->
+        </div><!--interface-->
+        <p>- Portfólio inspirado no modelo criado pelo canal: Inteliogia - Dev's Insights -</p>
+            
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+-->
